@@ -1,0 +1,13 @@
+{
+  "host": "${process.env.HOST}",
+  "port": "${process.env.PORT || 1337}",
+  "app": {
+    "keys": ["123","123"]
+  },  "production": true,
+  "proxy": {
+    "enabled": false
+  },
+  "cron": {
+    "enabled": false
+  }
+}

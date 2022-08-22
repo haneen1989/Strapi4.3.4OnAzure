@@ -1,0 +1,13 @@
+{
+  "host": "localhost",
+  "port": 1337,
+  "app": {
+    "keys": ["123","123"]
+  },
+  "proxy": {
+    "enabled": false
+  },
+  "cron": {
+    "enabled": false
+  }
+}
