@@ -3,11 +3,11 @@
   "connection": {
         "client": "mysql",
         "connection": {
-        "host": "${process.env.INSTANCE_CONNECTION_NAME}",
+        "host": "strapionazure.mysql.database.azure.com",
         "port": "3306",
-        "database": "${process.env.DATABASE_NAME}",
-        "user": "${process.env.DATABASE_USERNAME}",
-        "password": "${process.env.DATABASE_PASSWORD}"
+        "database": "strapi",
+        "user": "strapi@strapionazure",
+        "password": "azure@2022"
       }
     }
   }
