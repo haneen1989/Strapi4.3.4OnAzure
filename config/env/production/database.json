@@ -6,7 +6,7 @@
         "host": "${process.env.INSTANCE_CONNECTION_NAME}",
         "port": "3306",
         "database": "${process.env.DATABASE_NAME}",
-        "username": "${process.env.DATABASE_USERNAME}",
+        "user": "${process.env.DATABASE_USERNAME}",
         "password": "${process.env.DATABASE_PASSWORD}"
       }
     }
