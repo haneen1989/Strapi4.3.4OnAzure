@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'haneenphp8'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F2687C6403254A87AD4D9FCD71FFA7AF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0EF51EDEA2ED4E45B73E74F5B50FE87F }}
           package: .
